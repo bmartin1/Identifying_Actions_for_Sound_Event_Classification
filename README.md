@@ -1,10 +1,12 @@
 ## Identifying Actions for Sound Event Classification
 
-###### [Overview](#Identifying-Actions-for-Sound-Event-Classification) | [Abstract](#abstract) | [ESC-50 dataset](#ESC-50-dataset)
+###### [Overview](#Identifying-Actions-for-Sound-Event-Classification) | [Abstract](#abstract) | [ESC-50 dataset](#ESC-50-dataset) | [Citing](#citing)
 
 ## Abstract
 
 In Psychology, actions are pivotal for humans to perceive and separate sound events. In Machine Learning, action recognition achieves high accuracy; however, it has not been asked if identifying actions can benefit Sound Event Classification (SEC), as opposed to semi-direct processing of the audio signal. Therefore, we propose a new Psychology-inspired approach for SEC that includes identification of actions via human listeners.
+
+<img src="esc50.gif" alt="ESC-50 clip preview" title="ESC-50 clip preview" align="center" />
 
 ## ESC-50 dataset
 
@@ -24,3 +26,28 @@ The **ESC-50 dataset** is a sound event labeled collection of 2000 audio recordi
 | <sub>Insects (flying)</sub> | <sub>Pouring water</sub> | <sub>Brushing teeth</sub> | <sub>Clock alarm</sub> | <sub>Airplane</sub> |
 | <sub>Sheep</sub> | <sub>Toilet flush</sub> | <sub>Snoring</sub> | <sub>Clock tick</sub> | <sub>Fireworks</sub> |
 | <sub>Crow</sub> | <sub>Thunderstorm</sub> | <sub>Drinking, sipping</sub> | <sub>Glass breaking</sub> | <sub>Hand saw</sub> |
+
+## Citing
+
+TO BE EDITED...
+
+<a href="http://karol.piczak.com/papers/Piczak2015-ESC-Dataset.pdf"><img src="https://img.shields.io/badge/download%20paper-PDF-ff69b4.svg" alt="Download paper in PDF format" title="Download paper in PDF format" align="right" /></a>
+
+If you find this dataset useful in an academic setting please cite:
+
+> K. J. Piczak. **ESC: Dataset for Environmental Sound Classification**. *Proceedings of the 23rd Annual ACM Conference on Multimedia*, Brisbane, Australia, 2015.
+> 
+> [DOI: http://dx.doi.org/10.1145/2733373.2806390]
+
+    @inproceedings{piczak2015dataset,
+      title = {{ESC}: {Dataset} for {Environmental Sound Classification}},
+      author = {Piczak, Karol J.},
+      booktitle = {Proceedings of the 23rd {Annual ACM Conference} on {Multimedia}},
+      date = {2015-10-13},
+      url = {http://dl.acm.org/citation.cfm?doid=2733373.2806390},
+      doi = {10.1145/2733373.2806390},
+      location = {{Brisbane, Australia}},
+      isbn = {978-1-4503-3459-4},
+      publisher = {{ACM Press}},
+      pages = {1015--1018}
+    }
