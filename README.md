@@ -8,6 +8,8 @@ In Psychology, actions are pivotal for humans to perceive and separate sound eve
 
 <img src="av_pipeline.png" alt="SEC pipeline" title="SEC pipeline" align="center" width="600" height="400" />
 
+Typically, SEC takes the input audio, computes audio features and assigns a class label. We proposed to add an intermediate step where listeners identify actions in the audio. The identified actions are transformed into Action Vectors and are used for automatic SEC.
+
 ## ESC-50 dataset
 
 https://github.com/karolpiczak/ESC-50
