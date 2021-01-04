@@ -16,6 +16,6 @@ Please try to concentrate on the task. Some answers are obvious, while others ar
 
 ## Inter-annotator agreement: 
 
-We computed Fleiss Kappa coefficient between the three MTurk annotators for the entire dataset, resulting in a coefficient of 0.23 - Fair Agreement. In addition, we computed correlation, for a selection of files, between annotations in two different Lab sessions and MTurk. Lab sessions consisted of CMU students carry on the annotation in an anechoic chamber. 
+We computed Fleiss Kappa coefficient between the three MTurk annotators for the entire dataset, resulting in a coefficient of 0.23 - Fair Agreement. In addition, we computed correlation, for a selection of files, between annotations in two different Auditory Lab (AL) sessions (E19S and E20S) and MTurk. AL sessions consisted of CMU students performing annotations in an anechoic chamber, with headsets and a desktop computer. The plot below suggests that the annotations in the lab and the MTurk are fairly consistent.
 
 ![Image of correlation plot](https://github.com/bmartin1/Sound-Events-Descriptors/blob/master/causal_actions/action_vectors_dataset/corralation_comparison_between_lab_and_mturk.png)
