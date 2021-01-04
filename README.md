@@ -6,7 +6,7 @@
 
 In Psychology, actions are pivotal for humans to perceive and separate sound events. In Machine Learning, action recognition achieves high accuracy; however, it has not been asked if identifying actions can benefit Sound Event Classification (SEC), as opposed to semi-direct processing of the audio signal. Therefore, we propose a new Psychology-inspired approach for SEC that includes identification of actions via human listeners.
 
-<img src="av_pipeline" alt="ESC-50 clip preview" title="ESC-50 clip preview" align="center" />
+<img src="av_pipeline.png" alt="SEC pipeline" title="SEC pipeline" align="center" />
 
 ## ESC-50 dataset
 
