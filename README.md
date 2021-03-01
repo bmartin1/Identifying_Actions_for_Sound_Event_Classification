@@ -22,7 +22,7 @@ In order to relate actions to sound events, we chose a well-studied sound event 
 |breaking |vibrating |tapping |rotating |sizzling |
 
 
-The **ESC-50 dataset** is a sound event labeled collection of 2000 audio recordings suitable for benchmarking methods of environmental sound classification. The dataset consists of 5-second-long recordings organized into 50 semantical classes (with 40 examples per class) loosely arranged into 5 major categories:
+The [**ESC-50 dataset**](https://github.com/karolpiczak/ESC-50) is a sound event labeled collection of 2000 audio recordings suitable for benchmarking methods of environmental sound classification. The dataset consists of 5-second-long recordings organized into 50 semantical classes (with 40 examples per class) loosely arranged into 5 major categories:
 
 | <sub>Animals</sub> | <sub>Natural soundscapes & water sounds </sub> | <sub>Human, non-speech sounds</sub> | <sub>Interior/domestic sounds</sub> | <sub>Exterior/urban noises</sub> |
 | :--- | :--- | :--- | :--- | :--- |
@@ -36,8 +36,6 @@ The **ESC-50 dataset** is a sound event labeled collection of 2000 audio recordi
 | <sub>Insects (flying)</sub> | <sub>Pouring water</sub> | <sub>Brushing teeth</sub> | <sub>Clock alarm</sub> | <sub>Airplane</sub> |
 | <sub>Sheep</sub> | <sub>Toilet flush</sub> | <sub>Snoring</sub> | <sub>Clock tick</sub> | <sub>Fireworks</sub> |
 | <sub>Crow</sub> | <sub>Thunderstorm</sub> | <sub>Drinking, sipping</sub> | <sub>Glass breaking</sub> | <sub>Hand saw</sub> |
-
-https://github.com/karolpiczak/ESC-50
 
 ## Citing
 
