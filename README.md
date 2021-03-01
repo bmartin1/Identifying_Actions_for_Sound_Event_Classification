@@ -31,25 +31,12 @@ The **ESC-50 dataset** is a sound event labeled collection of 2000 audio recordi
 
 ## Citing
 
-TO BE EDITED...
+If you find this research or dataset useful in an academic setting please cite:
 
-<a href="http://karol.piczak.com/papers/Piczak2015-ESC-Dataset.pdf"><img src="https://img.shields.io/badge/download%20paper-PDF-ff69b4.svg" alt="Download paper in PDF format" title="Download paper in PDF format" align="right" /></a>
-
-If you find this dataset useful in an academic setting please cite:
-
-> K. J. Piczak. **ESC: Dataset for Environmental Sound Classification**. *Proceedings of the 23rd Annual ACM Conference on Multimedia*, Brisbane, Australia, 2015.
-> 
-> [DOI: http://dx.doi.org/10.1145/2733373.2806390]
-
-    @inproceedings{piczak2015dataset,
-      title = {{ESC}: {Dataset} for {Environmental Sound Classification}},
-      author = {Piczak, Karol J.},
-      booktitle = {Proceedings of the 23rd {Annual ACM Conference} on {Multimedia}},
-      date = {2015-10-13},
-      url = {http://dl.acm.org/citation.cfm?doid=2733373.2806390},
-      doi = {10.1145/2733373.2806390},
-      location = {{Brisbane, Australia}},
-      isbn = {978-1-4503-3459-4},
-      publisher = {{ACM Press}},
-      pages = {1015--1018}
+    @inproceedings{XX,
+      title = {Identifying Actions for Sound Event Classification},
+      author = {Elizalde, Benjamin},
+      date = {XX},
+      url = {XX},
+      publisher = {XX}
     }
