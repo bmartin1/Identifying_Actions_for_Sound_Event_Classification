@@ -14,10 +14,11 @@ Typically, SEC takes the input audio, computes audio features and assigns a clas
 
 In order to relate actions to sound events, we chose a well-studied sound event dataset called ESC-50. We selected 20 actions that in isolation or combi- nation could have produced at least part (of most) of the 50 sound events. 
 
+|||||
 | :--- | :--- | :--- | :--- | :--- |
 |dripping |rolling |groaning |crumpling |wailing|
 |splashing |scraping |gasping blowing |calling|
-|pouring |exhaling |singing |exploding |ringing|
+|pouring   |exhaling |singing |exploding |ringing|
 |breaking |vibrating |tapping |rotating |sizzling|
 
 https://github.com/karolpiczak/ESC-50
