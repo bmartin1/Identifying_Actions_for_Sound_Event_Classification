@@ -33,6 +33,7 @@ def compute_audio_embeddings(audio_path, metadata):
     
 
 ##Once dowloaded ESC-5- dataset, update both directories and call the function
+##Install OpenL3, an open-source Python library for computing deep audio and image embeddings. https://github.com/marl/openl3
 metadata = 'ESC-50-master/meta/esc50.csv'
 audio_path = 'ESC-50-master/audio/'
 compute_audio_embeddings(audio_path, metadata)
