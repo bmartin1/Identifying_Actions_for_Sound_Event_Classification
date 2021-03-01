@@ -17,7 +17,7 @@ In order to relate actions to sound events, we chose a well-studied sound event 
 | | | | | |
 | :--- | :--- | :--- | :--- | :--- |
 |dripping |rolling |groaning |crumpling |wailing|
-|splashing |scraping |gasping blowing |calling |
+|splashing |scraping |gasping | blowing |calling |
 |pouring   |exhaling |singing |exploding |ringing |
 |breaking |vibrating |tapping |rotating |sizzling |
 
