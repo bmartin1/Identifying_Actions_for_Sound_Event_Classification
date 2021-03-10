@@ -12,7 +12,6 @@ from sklearn.preprocessing import Normalizer
 from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import LabelBinarizer
 
-
 # Sets GPU to use
 import os
 os.environ["CUDA_VISIBLE_DEVICES"]="1"
@@ -23,7 +22,6 @@ os.environ["CUDA_VISIBLE_DEVICES"]="1"
 # AV = Action Vector
 # AE = Audio Embedding
 #############
-
 
 
 
@@ -62,8 +60,6 @@ def preprocessData(av_filename, ae_filename):
 		embedding = raw_embeddings[i][1]
 		embeddings_dict[fname] = embedding.mean(axis=0) # Takes average across timesteps
 
-
-
 	# Concatenates corresponding AV to each AE
 	x_train_stacked = []
 	for i in range(len(audio_files)):
@@ -71,8 +67,7 @@ def preprocessData(av_filename, ae_filename):
 		av = np.array(x_actionvectors[i]) #corresponding AV
 		embedding = embeddings_dict[fname]
 		x_train_stacked.append(np.concatenate((embedding,av)))
-
-
+		
 	# Converts to Numpy Array
 	x_train_stacked = np.array(x_train_stacked)
 	return (x_train_stacked, y_train, le)
@@ -84,7 +79,6 @@ def train_model(all_x_train, all_y_train, le):
 	# Will collect statistics
 	cf_report = []
 	accuracy = []
-
 
 	# Iterate over 5 folds
 	# Folds designated by ESC50 dataset
@@ -111,22 +105,18 @@ def train_model(all_x_train, all_y_train, le):
 
 		# Setting up model structure
 		model = Sequential()
-
 		model.add(Dense(units=800,input_dim=len(x_train[0])))
 		model.add(BatchNormalization())
 		model.add(Activation('tanh'))
 		model.add(Dropout(0.5))
-
 		model.add(Dense(units=500))
 		model.add(BatchNormalization())
 		model.add(Activation('tanh'))
 		model.add(Dropout(0.5))
-
 		model.add(Dense(units=200))
 		model.add(BatchNormalization())
 		model.add(Activation('tanh'))
 		model.add(Dropout(0.5))
-
 		model.add(Dense(units=50, activation='softmax'))
 
 		opt = optimizers.SGD(lr=0.008)
@@ -137,10 +127,6 @@ def train_model(all_x_train, all_y_train, le):
 					y_train,
 					epochs=70,
 					batch_size=32)
-
-
-
-
 
 
 		_, test_accuracy = model.evaluate(x_test, y_test)
@@ -177,8 +163,8 @@ def train_model(all_x_train, all_y_train, le):
 
 
 # Imports, modifies, and stacks AE to AV features
-av_filename = ('../embeddings_fifty/actionvector_one_per_audiofile.csv')
-ae_filename = ('../embeddings_fifty/ESC-50_openl3_music_mel256_6144.npy')
+av_filename = '../embeddings_fifty/actionvector_one_per_audiofile.csv'
+ae_filename = '../embeddings_fifty/ESC-50_openl3_music_mel256_6144.npy'
 (all_x_train, all_y_train, le) = preprocessData(av_filename, ae_filename)
 
 # Runs training on model
