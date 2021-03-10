@@ -1,7 +1,7 @@
 
 ##  Instructions for Mturk annotations:
 
-Detection of action(s) producing at least some part of the sounds
+Identification of action(s) producing at least some part of the sounds
 
 Thank you for participating! You must be between 18 and 60 years old, must not have a hearing impairment, must be wearing headphones and must not be listening to other audio.
 
