@@ -25,17 +25,22 @@ os.environ["CUDA_VISIBLE_DEVICES"]="1"
 
 
 
-# Matches each AE to its corresponding AV
-# Reduces dimensionality of AEs
+
+'''
+Preprocessing Description
+
+1) Imports AEs and AVs
+2) Converts each AE from shape (46, 6144) to shape (6144)
+... by computing the mean across each of the 46 timestamps
+3) Finds the corresponding AV [shape (20)] for each AE
+4) Stacks the AV to the AE to create a single feature of shape (6164)
+'''
 def preprocessData(av_filename, ae_filename):
 
 	av_training_data = pd.read_csv(av_filename) # AV CSV
 	categories = av_training_data['category']
 	audio_files = av_training_data['filename']
-	av_training_data = av_training_data.drop(columns = ['filename',
-													'fold',
-													'target',
-													'category'])
+	av_training_data = av_training_data.drop(columns = ['filename','fold','target','category'])
 	x_actionvectors = av_training_data.to_numpy(dtype='float') # AV data
 
 
@@ -70,12 +75,12 @@ def preprocessData(av_filename, ae_filename):
 		
 	# Converts to Numpy Array
 	x_train_stacked = np.array(x_train_stacked)
-	return (x_train_stacked, y_train, le)
+	return (x_train_stacked, y_train)
 
 
 
 
-def train_model(all_x_train, all_y_train, le):
+def train_test_model(all_x_train, all_y_train):
 	# Will collect statistics
 	cf_report = []
 	accuracy = []
@@ -101,8 +106,6 @@ def train_model(all_x_train, all_y_train, le):
 		x_test = normalize.transform(x_test)
 
 
-
-
 		# Setting up model structure
 		model = Sequential()
 		model.add(Dense(units=800,input_dim=len(x_train[0])))
@@ -123,12 +126,9 @@ def train_model(all_x_train, all_y_train, le):
 		model.compile(loss='categorical_crossentropy',
 							optimizer=opt,
 							metrics=['accuracy'])
-		model.fit(x_train,
-					y_train,
-					epochs=70,
-					batch_size=32)
+		model.fit(x_train,y_train,epochs=70,batch_size=32)
 
-
+		
 		_, test_accuracy = model.evaluate(x_test, y_test)
 		accuracy.append(test_accuracy)
 
@@ -136,9 +136,6 @@ def train_model(all_x_train, all_y_train, le):
 		Y_test = np.argmax(y_test,axis=1)
 		y_pred = model.predict_classes(x_test)
 		cf_report.append(classification_report(Y_test, y_pred))
-
-
-
 
 
 	# Prints a Classification Report for each fold
@@ -160,12 +157,10 @@ def train_model(all_x_train, all_y_train, le):
 
 
 
-
-
 # Imports, modifies, and stacks AE to AV features
 av_filename = '../embeddings_fifty/actionvector_one_per_audiofile.csv'
 ae_filename = '../embeddings_fifty/ESC-50_openl3_music_mel256_6144.npy'
-(all_x_train, all_y_train, le) = preprocessData(av_filename, ae_filename)
+(all_x_train, all_y_train) = preprocessData(av_filename, ae_filename)
 
 # Runs training on model
-train_model(all_x_train, all_y_train, le)
+train__test_model(all_x_train, all_y_train)
