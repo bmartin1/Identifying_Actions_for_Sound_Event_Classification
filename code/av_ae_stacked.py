@@ -14,7 +14,7 @@ from sklearn.preprocessing import LabelBinarizer
 
 # Sets GPU to use
 import os
-os.environ["CUDA_VISIBLE_DEVICES"]="1"
+os.environ["CUDA_VISIBLE_DEVICES"]="0"
 
 
 #############
@@ -158,8 +158,8 @@ def train_test_model(all_x_train, all_y_train):
 
 
 # Imports, modifies, and stacks AE to AV features
-av_filename = '../embeddings_fifty/actionvector_one_per_audiofile.csv'
-ae_filename = '../embeddings_fifty/ESC-50_openl3_music_mel256_6144.npy'
+av_filename = 'actionvector_one_per_audiofile.csv'
+ae_filename = 'ESC-50_openl3_music_mel256_6144.npy'
 (all_x_train, all_y_train) = preprocessData(av_filename, ae_filename)
 
 # Runs training on model
