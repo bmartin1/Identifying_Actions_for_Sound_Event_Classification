@@ -53,9 +53,9 @@ If you find this research or dataset useful please cite:
     
 Link to related work [Never-Ending Learning of Sounds - PhD thesis](https://kilthub.cmu.edu/ndownloader/files/25813502)
 
-@phdthesis{elizalde2020never,
-  title={Never-Ending Learning of Sounds},
-  author={Elizalde, Benjamin Martinez},
-  year={2020},
-  school={Carnegie Mellon University}
-}
+    @phdthesis{elizalde2020never,
+      title={Never-Ending Learning of Sounds},
+      author={Elizalde, Benjamin},
+      year={2020},
+      school={Carnegie Mellon University}
+    }
