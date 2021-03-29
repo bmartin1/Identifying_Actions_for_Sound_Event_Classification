@@ -22,14 +22,11 @@ from sklearn.preprocessing import LabelBinarizer
 import os
 os.environ["CUDA_VISIBLE_DEVICES"]="0"
 
-
 #############
 # Terminology
 # AV = Action Vector
 # AE = Audio Embedding
 #############
-
-
 
 
 '''
@@ -82,8 +79,6 @@ def preprocessData(av_filename, ae_filename):
 	# Converts to Numpy Array
 	x_train_stacked = np.array(x_train_stacked)
 	return (x_train_stacked, y_train)
-
-
 
 
 def train_test_model(all_x_train, all_y_train):
@@ -160,12 +155,9 @@ def train_test_model(all_x_train, all_y_train):
 	print("Standard Deviation:", np.std(accuracy))
 
 
-
-
-
 # Imports, modifies, and stacks AE to AV features
 av_filename = 'action_vectors_dataset/actionvector_one_per_audiofile.csv'
-ae_filename = 'ESC-50_openl3_music_mel256_6144.npy'
+ae_filename = 'ESC-50_openl3_music_mel256_6144.npy' # This file can be created with the script "compute_audio_embeddings.py"
 (all_x_train, all_y_train) = preprocessData(av_filename, ae_filename)
 
 # Runs training on model
