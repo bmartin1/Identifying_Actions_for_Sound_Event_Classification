@@ -164,7 +164,7 @@ def train_test_model(all_x_train, all_y_train):
 
 
 # Imports, modifies, and stacks AE to AV features
-av_filename = 'actionvector_one_per_audiofile.csv'
+av_filename = 'action_vectors_dataset/actionvector_one_per_audiofile.csv'
 ae_filename = 'ESC-50_openl3_music_mel256_6144.npy'
 (all_x_train, all_y_train) = preprocessData(av_filename, ae_filename)
 
