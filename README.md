@@ -4,7 +4,7 @@
 
 ## Abstract
 
-In Psychology, actions are pivotal for humans to perceive and separate sound events. In Machine Learning, action recognition achieves high accuracy; however, it has not been asked if identifying actions can benefit Sound Event Classification (SEC), as opposed to semi-direct processing of the audio signal. Therefore, we propose a new Psychology-inspired approach for SEC that includes identification of actions via human listeners. Because audio features and AVs capture different abstractions of the acoustic content, we combined them and achieved one of the highest reported accuracy (86.75%) in ESC-50, showing that Psychology-inspired approaches can improve SEC.
+In Psychology, actions are pivotal for humans to perceive and separate sound events. In Machine Learning, action recognition achieves high accuracy; however, it has not been asked if identifying actions can benefit Sound Event Classification (SEC), as opposed to semi-direct processing of the audio signal. Therefore, we propose a new Psychology-inspired approach for SEC that includes identification of actions via human listeners. Because audio features and AVs capture different abstractions of the acoustic content, we combined them and achieved one of the highest reported accuracy (86.75%) in ESC-50 (human performance is 81%), showing that Psychology-inspired approaches can improve SEC.
 
 <img src="av_pipeline.png" alt="SEC pipeline" title="SEC pipeline" align="center" width="600" height="400" />
 
@@ -39,6 +39,8 @@ The [**ESC-50 dataset**](https://github.com/karolpiczak/ESC-50) is a sound event
 
 ## Citing
 
+Link to [arxiv paper](https://github.com/bmartin1/Identifying_Actions_for_Sound_Event_Classification/edit/main/README.md).
+
 If you find this research or dataset useful please cite:
 
     @inproceedings{XX,
@@ -48,3 +50,12 @@ If you find this research or dataset useful please cite:
       url = {XX},
       publisher = {XX}
     }
+    
+Link to related work [Never-Ending Learning of Sounds - PhD thesis](https://kilthub.cmu.edu/ndownloader/files/25813502)
+
+@phdthesis{elizalde2020never,
+  title={Never-Ending Learning of Sounds},
+  author={Elizalde, Benjamin Martinez},
+  year={2020},
+  school={Carnegie Mellon University}
+}
