@@ -45,7 +45,7 @@ If you find this research or dataset useful please cite:
 
     @inproceedings{XX,
       title = {Identifying Actions for Sound Event Classification},
-      author = {Elizalde, Benjamin},
+      author = {Elizalde, Benjamin, add other authors XX},
       date = {XX},
       url = {XX},
       publisher = {XX}
