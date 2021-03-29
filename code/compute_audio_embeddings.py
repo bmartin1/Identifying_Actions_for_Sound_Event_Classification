@@ -1,3 +1,10 @@
+'''
+__author__     = 'Benjamin Elizalde'
+__email__      = 'bmartin1@cmu.edu'
+__date__       = '2020'
+
+'''
+
 import pandas as pd
 import numpy as np
 import soundfile as sf
