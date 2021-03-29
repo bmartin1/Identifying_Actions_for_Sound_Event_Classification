@@ -1,6 +1,6 @@
 ## Identifying Actions for Sound Event Classification
 
-###### [Overview](#Identifying-Actions-for-Sound-Event-Classification) | [Abstract](#abstract) | [ESC-50 dataset](#ESC-50-dataset) | [Citing](#citing)
+###### [Overview](#Identifying-Actions-for-Sound-Event-Classification) | [Abstract](#abstract) | [ESC-50 dataset](#ESC-50-dataset) | [Acknowledgements](#Acknowledgements)
 
 ## Abstract
 
@@ -59,3 +59,7 @@ Link to related work [Never-Ending Learning of Sounds - PhD thesis](https://kilt
       year={2020},
       school={Carnegie Mellon University}
     }
+    
+## Acknowledgements
+
+Thanks to the different funding sources, Bosch Research Pittsburgh and Sense Of Wonder Group.
