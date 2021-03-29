@@ -1,3 +1,9 @@
+'''
+__author__     = 'Radu Revutchi'
+__email__      = 'radurevutchi@cmu.edu'
+__date__       = '2020'
+
+'''
 
 from keras.models import Sequential
 from keras.layers import Dense, BatchNormalization, Activation, Dropout
