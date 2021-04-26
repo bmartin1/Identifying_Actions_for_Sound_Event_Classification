@@ -39,17 +39,8 @@ The [**ESC-50 dataset**](https://github.com/karolpiczak/ESC-50) is a sound event
 
 ## Citing
 
-Link to [arxiv paper](https://github.com/bmartin1/Identifying_Actions_for_Sound_Event_Classification/edit/main/README.md).
-
 If you find this research or dataset useful please cite:
 
-    @inproceedings{XX,
-      title = {Identifying Actions for Sound Event Classification},
-      author = {Elizalde, Benjamin, add other authors XX},
-      date = {XX},
-      url = {XX},
-      publisher = {XX}
-    }
     
 Link to related work [Never-Ending Learning of Sounds - PhD thesis](https://kilthub.cmu.edu/ndownloader/files/25813502)
 
@@ -62,4 +53,4 @@ Link to related work [Never-Ending Learning of Sounds - PhD thesis](https://kilt
     
 ## Acknowledgements
 
-Thanks to the different funding sources, Bosch Research Pittsburgh and Sense Of Wonder Group.
+Thanks to the different funding sources, Bosch Research Pittsburgh, Sense Of Wonder Group and CONACyT.
