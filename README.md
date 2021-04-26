@@ -40,7 +40,6 @@ The [**ESC-50 dataset**](https://github.com/karolpiczak/ESC-50) is a sound event
 ## Citing
 
 If you find this research or dataset useful please cite:
-
     
 Link to related work [Never-Ending Learning of Sounds - PhD thesis](https://kilthub.cmu.edu/ndownloader/files/25813502)
 
@@ -50,6 +49,8 @@ Link to related work [Never-Ending Learning of Sounds - PhD thesis](https://kilt
       year={2020},
       school={Carnegie Mellon University}
     }
+    
+ *The paper describing th annotations is currently in submission, the annottions wil be released after revision.
     
 ## Acknowledgements
 
