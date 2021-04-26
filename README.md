@@ -50,7 +50,7 @@ Link to related work [Never-Ending Learning of Sounds - PhD thesis](https://kilt
       school={Carnegie Mellon University}
     }
     
- *The paper describing th annotations is currently in submission, the annottions wil be released after revision.
+ *The paper describing th annotations is currently in submission, the annotations will be released after revision.
     
 ## Acknowledgements
 
