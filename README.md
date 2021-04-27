@@ -14,7 +14,6 @@ Typically, SEC takes the input audio, computes audio features and assigns a clas
 
 In order to relate actions to sound events, we chose a well-studied sound event dataset called ESC-50. We selected 20 actions that in isolation or combination could have produced at least part (of most) of the 50 sound events. 
 
-| | | | | |
 | :--- | :--- | :--- | :--- | :--- |
 |dripping |rolling |groaning |crumpling |wailing|
 |splashing |scraping |gasping | blowing |calling |
@@ -43,14 +42,14 @@ If you find this research or annotations (1) useful please cite:
 
 [Identifying Actions for Sound Event Classification](https://arxiv.org/abs/2104.12693)
 
-@misc{elizalde2021identifying,
-      title={Identifying Actions for Sound Event Classification}, 
-      author={Benjamin Elizalde and Radu Revutchi and Samarjit Das and Bhiksha Raj and Ian Lane and Laurie M. Heller},
-      year={2021},
-      eprint={2104.12693},
-      archivePrefix={arXiv},
-      primaryClass={cs.SD}
-}
+      @misc{elizalde2021identifying,
+            title={Identifying Actions for Sound Event Classification}, 
+            author={Benjamin Elizalde and Radu Revutchi and Samarjit Das and Bhiksha Raj and Ian Lane and Laurie M. Heller},
+            year={2021},
+            eprint={2104.12693},
+            archivePrefix={arXiv},
+            primaryClass={cs.SD}
+      }
     
 [Never-Ending Learning of Sounds - PhD thesis](https://kilthub.cmu.edu/ndownloader/files/25813502)
 
