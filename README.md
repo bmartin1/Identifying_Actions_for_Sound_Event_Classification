@@ -39,9 +39,20 @@ The [**ESC-50 dataset**](https://github.com/karolpiczak/ESC-50) is a sound event
 
 ## Citing
 
-If you find this research or dataset useful please cite:
+If you find this research or annotations (1) useful please cite:
+
+[Identifying Actions for Sound Event Classification](https://arxiv.org/abs/2104.12693)
+
+@misc{elizalde2021identifying,
+      title={Identifying Actions for Sound Event Classification}, 
+      author={Benjamin Elizalde and Radu Revutchi and Samarjit Das and Bhiksha Raj and Ian Lane and Laurie M. Heller},
+      year={2021},
+      eprint={2104.12693},
+      archivePrefix={arXiv},
+      primaryClass={cs.SD}
+}
     
-Link to related work [Never-Ending Learning of Sounds - PhD thesis](https://kilthub.cmu.edu/ndownloader/files/25813502)
+[Never-Ending Learning of Sounds - PhD thesis](https://kilthub.cmu.edu/ndownloader/files/25813502)
 
     @phdthesis{elizalde2020never,
       title={Never-Ending Learning of Sounds},
@@ -50,7 +61,7 @@ Link to related work [Never-Ending Learning of Sounds - PhD thesis](https://kilt
       school={Carnegie Mellon University}
     }
     
- *The paper describing th annotations is currently in submission, the annotations will be released after revision.
+ 1 The annotations will be released after revision.
     
 ## Acknowledgements
 
