@@ -14,7 +14,7 @@ Typically, SEC takes the input audio, computes audio features and assigns a clas
 
 In order to relate actions to sound events, we chose a well-studied sound event dataset called ESC-50. We selected 20 actions that in isolation or combination could have produced at least part (of most) of the 50 sound events. 
 
-| :--- | :--- | :--- | :--- | :--- |
+||||||
 |dripping |rolling |groaning |crumpling |wailing|
 |splashing |scraping |gasping | blowing |calling |
 |pouring   |exhaling |singing |exploding |ringing |
@@ -50,15 +50,15 @@ If you find this research or annotations (1) useful please cite:
             archivePrefix={arXiv},
             primaryClass={cs.SD}
       }
-    
+
 [Never-Ending Learning of Sounds - PhD thesis](https://kilthub.cmu.edu/ndownloader/files/25813502)
 
-    @phdthesis{elizalde2020never,
+      @phdthesis{elizalde2020never,
       title={Never-Ending Learning of Sounds},
       author={Elizalde, Benjamin},
       year={2020},
       school={Carnegie Mellon University}
-    }
+      }
     
  1 The annotations will be released after revision.
     
