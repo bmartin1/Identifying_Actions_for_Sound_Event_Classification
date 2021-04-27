@@ -55,10 +55,10 @@ If you find this research or annotations (1) useful please cite:
 [Never-Ending Learning of Sounds - PhD thesis](https://kilthub.cmu.edu/ndownloader/files/25813502)
 
       @phdthesis{elizalde2020never,
-      title={Never-Ending Learning of Sounds},
-      author={Elizalde, Benjamin},
-      year={2020},
-      school={Carnegie Mellon University}
+            title={Never-Ending Learning of Sounds},
+            author={Elizalde, Benjamin},
+            year={2020},
+            school={Carnegie Mellon University}
       }
     
  1 The annotations will be released after revision.
