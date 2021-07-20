@@ -61,7 +61,7 @@ If you find this research or annotations (1) useful please cite:
             school={Carnegie Mellon University}
       }
     
- 1 The annotations will be released after revision.
+ 1 The annotations will be released after revision in the end of July 2021.
     
 ## Acknowledgements
 
