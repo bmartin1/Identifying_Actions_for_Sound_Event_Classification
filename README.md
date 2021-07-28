@@ -66,7 +66,7 @@ If you find this research or annotations (1) useful please cite:
 
 WASPAA 2021
 
-Reviewer 1: "This paper presents a new idea of annotating sound events [...] The proposed idea is very interesting and highly novel."
+Reviewer 1: "This paper presents a new idea of annotating sound events [...] [it] is very interesting and highly novel."
 
 Reviewer 2: "This is a strong paper [...] well motivated, organized and written."
 
