@@ -61,14 +61,15 @@ If you find this research or annotations (1) useful please cite:
             school={Carnegie Mellon University}
       }
 
- 1 The annotations will be released after revision in the end of July 2021.
 
 ## Reviews
 
 WASPAA 2021
 
 Reviewer 1: "This paper presents a new idea of annotating sound events [...] The proposed idea is very interesting and highly novel."
+
 Reviewer 2: "This is a strong paper [...] well motivated, organized and written."
+
 Reviewer 3: "The idea of using semantic information to help the learning process is quite interesting."
 
 ## Acknowledgements
