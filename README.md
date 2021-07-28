@@ -4,7 +4,7 @@
 
 ## Abstract
 
-In Psychology, actions are pivotal for humans to perceive and separate sound events. In Machine Learning, action recognition achieves high accuracy; however, it has not been asked if identifying actions can benefit Sound Event Classification (SEC), as opposed to semi-direct processing of the audio signal. Therefore, we propose a new Psychology-inspired approach for SEC that includes identification of actions via human listeners. Because audio features and AVs capture different abstractions of the acoustic content, we combined them and achieved one of the highest reported accuracy (86.75%) in ESC-50 (human performance is 81%), showing that Psychology-inspired approaches can improve SEC.
+In Psychology, actions are paramount for humans to identify sound events. In Machine Learning (ML), action recognition achieves high accuracy; however, it has not been asked whether  identifying actions can benefit Sound Event Classification (SEC), as opposed to mapping the audio directly to a sound event. Therefore, we propose a new Psychology-inspired approach for SEC that includes identification of actions via human listeners. To achieve this goal, we used crowdsourcing to have listeners identify 20 actions that in isolation or in combination may have produced any of the 50 sound events in the well-studied dataset ESC-50. The resulting annotations for each audio recording relate actions to a database of sound events for the first time. The annotations were used to create semantic representations called Action Vectors (AVs). We evaluated SEC by comparing the AVs with two types of audio features -- log-mel spectrograms and state-of-the-art audio embeddings. Because audio features and AVs capture different abstractions of the acoustic content, we combined them and achieved one of the highest reported accuracies (88%).
 
 <img src="av_pipeline.png" alt="SEC pipeline" title="SEC pipeline" align="center" width="500" height="300" />
 
@@ -12,7 +12,7 @@ Typically, SEC takes the input audio, computes audio features and assigns a clas
 
 ## Actions for ESC-50 dataset
 
-In order to relate actions to sound events, we chose a well-studied sound event dataset called ESC-50. We selected 20 actions that in isolation or combination could have produced at least part (of most) of the 50 sound events. 
+In order to relate actions to sound events, we chose a well-studied sound event dataset called ESC-50. We selected 20 actions that in isolation or combination could have produced at least part (of most) of the 50 sound events.
 
 ||||||
 | :--- | :--- | :--- | :--- | :--- |
@@ -44,7 +44,7 @@ If you find this research or annotations (1) useful please cite:
 [Identifying Actions for Sound Event Classification](https://arxiv.org/abs/2104.12693)
 
       @misc{elizalde2021identifying,
-            title={Identifying Actions for Sound Event Classification}, 
+            title={Identifying Actions for Sound Event Classification},
             author={Benjamin Elizalde and Radu Revutchi and Samarjit Das and Bhiksha Raj and Ian Lane and Laurie M. Heller},
             year={2021},
             eprint={2104.12693},
@@ -60,9 +60,9 @@ If you find this research or annotations (1) useful please cite:
             year={2020},
             school={Carnegie Mellon University}
       }
-    
+
  1 The annotations will be released after revision in the end of July 2021.
-    
+
 ## Acknowledgements
 
 Thanks to the different funding sources, Bosch Research Pittsburgh, Sense Of Wonder Group and CONACyT.
