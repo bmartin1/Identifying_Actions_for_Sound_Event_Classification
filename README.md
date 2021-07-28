@@ -1,6 +1,6 @@
 ## Identifying Actions for Sound Event Classification
 
-###### [Overview](#Identifying-Actions-for-Sound-Event-Classification) | [Abstract](#abstract) | [ESC-50 dataset](#ESC-50-dataset) | [Reviews](#Reviews) | [Acknowledgements](#Acknowledgements)
+###### [Overview](#Identifying-Actions-for-Sound-Event-Classification) | [Abstract](#abstract) | [ESC-50 dataset](#ESC-50-dataset) | [Paper reviews](#Paper reviews) | [Acknowledgements](#Acknowledgements)
 
 ## Abstract
 
