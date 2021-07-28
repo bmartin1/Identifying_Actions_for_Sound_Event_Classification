@@ -1,6 +1,6 @@
 ## Identifying Actions for Sound Event Classification
 
-###### [Overview](#Identifying-Actions-for-Sound-Event-Classification) | [Abstract](#abstract) | [ESC-50 dataset](#ESC-50-dataset) | [Acknowledgements](#Acknowledgements)
+###### [Overview](#Identifying-Actions-for-Sound-Event-Classification) | [Abstract](#abstract) | [ESC-50 dataset](#ESC-50-dataset) | [Reviews](#Reviews) | [Acknowledgements](#Acknowledgements)
 
 ## Abstract
 
@@ -62,6 +62,14 @@ If you find this research or annotations (1) useful please cite:
       }
 
  1 The annotations will be released after revision in the end of July 2021.
+
+## Reviews
+
+WASPAA 2021
+
+Reviewer 1: "This paper presents a new idea of annotating sound events [...] The proposed idea is very interesting and highly novel."
+Reviewer 2: "This is a strong paper [...] well motivated, organized and written."
+Reviewer 3: "The idea of using semantic information to help the learning process is quite interesting."
 
 ## Acknowledgements
 
