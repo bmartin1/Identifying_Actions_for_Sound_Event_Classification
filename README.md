@@ -39,7 +39,7 @@ The [**ESC-50 dataset**](https://github.com/karolpiczak/ESC-50) is a sound event
 
 ## Citing
 
-If you find this research or annotations useful please cite:
+If you find this research or annotations useful please cite the paper below:
 
 [Identifying Actions for Sound Event Classification](https://arxiv.org/abs/2104.12693)
 
@@ -51,6 +51,8 @@ If you find this research or annotations useful please cite:
             archivePrefix={arXiv},
             primaryClass={cs.SD}
       }
+
+For more research on Sound Event Classification with Machine Learning + Psychology refer to:
 
 [Never-Ending Learning of Sounds - PhD thesis](https://kilthub.cmu.edu/ndownloader/files/25813502)
 
