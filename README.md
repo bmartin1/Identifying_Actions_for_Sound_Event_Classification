@@ -39,7 +39,7 @@ The [**ESC-50 dataset**](https://github.com/karolpiczak/ESC-50) is a sound event
 
 ## Citing
 
-If you find this research or annotations (1) useful please cite:
+If you find this research or annotations useful please cite:
 
 [Identifying Actions for Sound Event Classification](https://arxiv.org/abs/2104.12693)
 
