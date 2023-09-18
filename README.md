@@ -64,9 +64,7 @@ For more research on Sound Event Classification with Machine Learning + Psycholo
       }
 
 
-## Reviews
-
-WASPAA 2021
+## Reviews from WASPAA 2021
 
 Reviewer 1: "This paper presents a new idea of annotating sound events [...] is very interesting and highly novel."
 
