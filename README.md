@@ -43,13 +43,13 @@ If you find this research or annotations useful please cite the paper below:
 
 [Identifying Actions for Sound Event Classification](https://arxiv.org/abs/2104.12693)
 
-      @misc{elizalde2021identifying,
-            title={Identifying Actions for Sound Event Classification},
-            author={Benjamin Elizalde and Radu Revutchi and Samarjit Das and Bhiksha Raj and Ian Lane and Laurie M. Heller},
-            year={2021},
-            eprint={2104.12693},
-            archivePrefix={arXiv},
-            primaryClass={cs.SD}
+      @inproceedings{elizalde2021identifying,
+              title={Identifying actions for sound event classification},
+              author={Elizalde, Benjamin and Revutchi, Radu and Das, Samarjit and Raj, Bhiksha and Lane, Ian and Heller, Laurie M},
+              booktitle={2021 IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA)},
+              pages={26--30},
+              year={2021},
+              organization={IEEE}
       }
 
 For more research on Sound Event Classification with Machine Learning + Psychology refer to:
